@@ -36,6 +36,8 @@ class ImageFilterTool(QMainWindow):
 
         self.current_index = 0
 
+        #adding line
+
         # Main layout
         self.central_widget = QWidget()
         self.setCentralWidget(self.central_widget)
@@ -167,6 +169,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-    vopvk
